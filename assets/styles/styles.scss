@@ -1,10 +1,75 @@
 ---
 ---
+$pink: #E85997;
 
 *{
   font-family: 'Playfair Display', serif;
 }
+html{
+  margin:0px;
+  padding:0px;
+}
+body{
+  margin:0px;
+  padding: 0px 15px;
+}
+h1{
+  font-weight: 900;
+  font-style: italic;
+  font-size: 56px;
+  margin: 0px;
+  a{
+    color: black;
+    text-decoration: none;
+    &:hover{
+      color: $pink;
+      text-decoration: none;
+    }
+  }
+}
+.site-title{
+  font-weight: 700;
+  font-size: 34px;
+  a{
+    color: black;
+    text-decoration: none;
+    &:hover{
+      color: $pink;
+      text-decoration: none;
+    }
+  }
+}
+
+a{
+  color: $pink;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.site-header{
+  position: fixed;
+  top: 15px;
+  left: 15px;
+
+}
+.site-footer{
+  margin: auto;
+  width: 700px;
+}
+.inner{
+  margin: auto;
+  width: 700px;
+}
+
+.more-link{
+  font-weight: 700;
+  font-size: 34px;
+  text-decoration: underline;
+}
+
 p{
+  font-weight: ;
   font-size: 21px;
   line-height: 33px;
   margin-top: 38px;
