@@ -2,13 +2,9 @@
 layout: default
 ---
 
-<div class="home">
+{% for post in site.posts limit:1 %}
+  <h1 class="page-heading"><a href="{{post.url}}/">{{post.title}}</a></h1>
+  {{ post.content }}
+{% endfor %}
 
-  {% for post in site.posts limit:1 %}
-    <h1 class="page-heading"><a href="{{post.url}}/">{{post.title}}</a></h1>
-    {{ post.content }}
-  {% endfor %}
-
-  <a class="more-link" href="/more">> More</a>
-
-</div>
+<a class="more-link" href="/more">> More</a>

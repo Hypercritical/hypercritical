@@ -28,18 +28,6 @@ h1{
     }
   }
 }
-.site-title{
-  font-weight: 700;
-  font-size: 34px;
-  a{
-    color: black;
-    text-decoration: none;
-    &:hover{
-      color: $pink;
-      text-decoration: none;
-    }
-  }
-}
 
 a{
   color: $pink;
@@ -47,6 +35,27 @@ a{
   &:hover{
     text-decoration: underline;
   }
+}
+.site-nav{
+  .site-title{
+    font-weight: 700;
+    font-size: 34px;
+    a{
+      color: black;
+      text-decoration: none;
+      &:hover{
+        color: $pink;
+        text-decoration: none;
+      }
+    }
+  }
+  .more-link{
+    font-size: 16px;
+  }
+}
+
+.page-content{
+  padding-bottom: 20px;
 }
 .site-header{
   position: fixed;
@@ -58,6 +67,7 @@ a{
   margin: auto;
   width: 700px;
 }
+
 .inner{
   margin: auto;
   width: 700px;
