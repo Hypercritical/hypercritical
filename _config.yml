@@ -9,6 +9,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hypercritical.press" # the base hostname & protocol for your site
 twitter_username: hypercritical
 github_username:  hypercritical
+sass:
+  style: compressed
+
 
 # Build settings
 markdown: kramdown
