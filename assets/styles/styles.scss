@@ -62,19 +62,21 @@ p{
   padding-bottom: 20px;
 }
 .site-header{
-  position: fixed;
-  top: 15px;
-  left: 15px;
-
+  height: 100%;
+  float: left;
+  width: calc(50% - 350px);
+  padding-left: 15px;
 }
 .site-footer{
   margin: auto;
   width: 700px;
 }
-
+.wrapper{
+  overflow: auto;
+}
 .inner{
-  margin: auto;
   width: 700px;
+  float:left;
 }
 
 .more-link{
