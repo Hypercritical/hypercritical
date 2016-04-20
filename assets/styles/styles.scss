@@ -62,10 +62,12 @@ p{
   padding-bottom: 20px;
 }
 .site-header{
-  height: 100%;
-  float: left;
-  width: calc(50% - 350px);
   padding-left: 15px;
+  @media only screen and (min-width : 1200px) {
+    height: 100%;
+    float: left;
+    width: calc(50% - 350px);
+  }
 }
 .site-footer{
   margin: auto;
@@ -76,7 +78,12 @@ p{
 }
 .inner{
   width: 700px;
-  float:left;
+  float: left;
+  @media only screen and (max-width : 1200px) {
+    clear: both;
+    max-width: 700px;
+    padding: 0px 15px;
+  }
 }
 
 .more-link{
