@@ -23,6 +23,13 @@ body{
       padding-top: 51px;
     }
 }
+blockquote {
+  margin-left: 0px;
+  padding-left: 40px;
+  border-left: 4px solid $pink;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif !important;
+}
 h1{
   font-weight: 900;
   font-style: italic;
