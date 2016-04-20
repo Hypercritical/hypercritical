@@ -73,6 +73,10 @@ p{
       width: 700px;
       margin: auto;
   }
+  @media only screen and (min-width : 1201px) {
+    position: fixed;
+  }
+
   .site-title{
     font-weight: 700;
     font-size: 34px;
@@ -90,7 +94,6 @@ p{
   }
   .more-link{
     font-size: 16px;
-    font-family: 'Raleway', sans-serif !important;
     @media only screen and (max-width : 1200px) {
       float: right;
       position: relative;
@@ -153,6 +156,7 @@ p{
 .more-link{
   font-weight: 700;
   font-size: 34px;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 .site-footer{
