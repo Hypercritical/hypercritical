@@ -80,6 +80,12 @@ p{
 
 .page-content{
   padding-bottom: 20px;
+  min-height: 100%;
+  margin-bottom: -132px; 
+  &:after {
+    content: "";
+    display: block;
+  }
 }
 .site-header{
   padding: 0px 15px;
@@ -100,6 +106,9 @@ p{
 .site-footer{
   margin: auto;
   width: 700px;
+}
+.site-footer, .page-content:after {
+  height: 132px; 
 }
 .wrapper{
   overflow: auto;
