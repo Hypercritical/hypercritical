@@ -90,6 +90,7 @@ p{
   }
   .more-link{
     font-size: 16px;
+    font-family: 'Raleway', sans-serif !important;
     @media only screen and (max-width : 1200px) {
       float: right;
       position: relative;
@@ -178,4 +179,5 @@ p{
   font-size: 36px;
   font-weight: 900;
   font-style: italic;
+  font-family: 'Playfair Display', serif;
 }
