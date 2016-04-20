@@ -101,7 +101,8 @@ p{
   width: 700px;
   float: left;
   @media only screen and (max-width : 1200px) {
-    float: left;
+    float: none;
+    margin: auto;
   }
   @media only screen and (max-width : 730px) {
     clear: both;
